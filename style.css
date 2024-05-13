@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.header{
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(67,67,68);
+    z-index: 1000;
+}
+.header-link{
+    text-decoration: none;
+    color: rgb(161,161,161);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+    margin-left: 30px;
+    font-size: 11px;
+}
+.header-link:hover{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.search{
+    margin-top: 4px;
+}
+.header-shop{
+    margin-left: 15px;
+}
+header{
+    z-index: 1000;  
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.macbookair{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50%;
+    left: 0;
+}
+.macbookair_more_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-bottom: 316px;
+    z-index: 400;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(41,151,255);
+    height: 10px;
+    font-size: 20px;
+    padding-bottom: 7px;
+}
+.macbookair_more_btn:hover{
+    border-bottom: 2px solid rgb(41,151,255);
+}
+.iphone15{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50%;
+    left: 0;
+}
+.iphone_15_pro{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50%;
+    left: 0;
+}
+.inhone_15_more_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-bottom: 323px;
+    z-index: 400;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(41,151,255);
+    height: 10px;
+    font-size: 20px;
+    padding-bottom: 7px;
+}
+.inhone_15_more_btn:hover{
+    border-bottom: 2px solid rgb(41,151,255);
+}
+.iphone_15{
+    width: 50%;
+    background-color: rgb(245,245,247);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: right;
+    position: absolute;
+    margin-left: 50%;
+    overflow: hidden;
+}
